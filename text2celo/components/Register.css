@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap");
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bye {
+  color: #000;
+  letter-spacing: -1px;
+  margin-top: 0;
+  font-family: Plus Jakarta Sans;
+  margin-bottom: 33px;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 108%;
+  margin-top: 5%;
+}
+
+.hi {
+  color: #000;
+  background: linear-gradient(90deg, #f8c362 0%, #fe8354 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -1px;
+  margin-top: 0;
+  font-family: Plus Jakarta Sans;
+  margin-bottom: 33px;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 108%;
+  margin-top: -1rem;
+}
+
+input {
+  width: 60%;
+  height: 3rem;
+  color: #333;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  display: block;
+  border-radius: 3rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+   
+    
+
+}
+
+input:focus {
+  border-color: #3898ec;
+
+  outline: none;
+}
+
+button {
+  display: flex;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  outline: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 81.5px;
+  background: linear-gradient(90deg, #f8c362 0%, #fe8354 100%);
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 108%;
+    margin-top: 20px;
+}
